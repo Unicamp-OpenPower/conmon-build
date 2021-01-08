@@ -15,4 +15,5 @@ script:
   - cd conmon
   - make
   - make test
+  - cd bin
   - ./conmon --version
