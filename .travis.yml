@@ -8,7 +8,7 @@ go: "1.16.x"
 
 install:
   - sudo apt update
-  - sudo apt-get install -y make git gcc build-essential libc6-dev libglib2.0-dev pkg-config make runc python3 libseccomp-dev libgpgme11-dev btrfs-progs btrfs-progs
+  - sudo apt-get install -y make git gcc build-essential libc6-dev libglib2.0-dev pkg-config make runc python3 libseccomp-dev libgpgme11-dev libbtrfs-dev libsystemd-dev
 
 script:
   - git clone https://github.com/containers/conmon.git
